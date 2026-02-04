@@ -1,0 +1,426 @@
+{
+    "cars": [
+        {
+            "id": "car-1",
+            "title": "Honda civic orial prosmatic ",
+            "price": "PKR 41.00 lacs",
+            "brand": "Honda",
+            "Model": "Civic",
+            "category": "seden",
+            "year": "2019",
+            "engineCC": 25000,
+            "powerHP": 158,
+            "description": "its one of its kind totally geniun fabric best comdition just 4 spray in trunk android panel in dash lighting biomatric on spot transfer must exchange possible with Honda civic x or jeep etc",
+            "city": "peshawar",
+            "image": [
+                "/images/honda-1.png",
+                "/images/honda-2.png"
+            ],
+            "sold": false,
+            "inSale": true,
+            "fuel" : "Petrol",
+            "km" : "107000 km",
+            "posted": "a day ago"
+        },
+        {
+            "id": "car-2",
+            "title": "sold car",
+            "price": "PKR 25.00 lacs",
+            "description": "",
+            "brand": "Honda",
+            "Model": "Civic",
+            "category": "Family Cars",
+            "year": "2019",
+            "engineCC": 1800,
+            "powerHP": 158,
+            "city": "islamabad",
+            "image": [
+                "/images/honda-3.png",
+                "/images/honda-4.png"
+            ],
+            "sold": true,
+            "inSale": false,
+             "fuel" : "Petrol",
+            "km" : "4800 km",
+            "posted": "5 days ago"
+        },
+        {
+            "id": "car-3",
+            "title": "Honda City 1.3 MT",
+            "price": "PKR 40.00 lacs",
+            "description": "its one of its kind totally geniun fabric best comdition just 4 spray in trunk android panel in dash lighting biomatric on spot transfer must exchange possible with Honda civic x or jeep etc",
+            "city": "Islamabad, Blue Area",
+            "brand": "Honda",
+            "Model": "Civic",
+            "category": "seden",
+            "year": "2019",
+            "engineCC": 1000,
+            "powerHP": 100,
+             "fuel" : "Petrol",
+            "km" : "42000 km",
+            "posted": "24 days ago",
+            "image": [
+                "/images/honda-5.png",
+                "/images/honda-6.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "car-4",
+            "title": "Honda BRV I- Vtec S",
+            "price": "PKR 46.00 lacs",
+            "description": "its one of its kind totally geniun fabric best comdition just 4 spray in trunk android panel in dash lighting biomatric on spot transfer must exchange possible with Honda civic x or jeep etc",
+            "city": "Mardan",
+             "engineCC": 2500,
+            "powerHP": 158,
+             "fuel" : "Petrol",
+            "km" : "25000 km",
+            "posted": "a month ago",
+            "image": [
+                "/images/honda-7.png",
+                "/images/honda-8.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "car-5",
+            "title": "corolla yaris",
+            "price": "PKR 49.00 lacs",
+            "description": "toyota yaris 2025 model b2b neat clean 33000 kolometer",
+            "city": "Peshawar, Dalazak Road",
+             "engineCC": 1800,
+            "powerHP": 158,
+             "fuel" : "Petrol",
+            "km" : "189000 km",
+            "posted": "a week ago",
+            "image": [
+                "/images/corolla-1.png",
+                "/images/corolla-2.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "car-6",
+            "title": "revo gr 2025",
+            "price": "PKR 1.80 Cr",
+            "description": "i am selling revo gr exchnage possible with forfuner legenger or v8",
+            "city": "Peshawar, Saddar",
+            "engineCC": 1500,
+            "powerHP": 201,
+             "fuel" : "Petrol",
+            "km" : "30000 km",
+            "posted": "8 days ago",
+            "image": [
+                "/images/corolla-3.png",
+                "/images/corolla-4.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "car-7",
+            "title": "1000 CC se convert 1300 cc engine 100% seal by seal hai bahar se 70 percent genuine hai",
+            "price": "PKR 302.58 Cr",
+            "description": "",
+             "engineCC": 1800,
+            "powerHP": 158,
+            "city": "Rawalpindi, Airport Housing Society",
+            "image": [
+                "/images/corolla-5.png",
+                "/images/corolla-6.png"
+            ],
+            "sold": false,
+            "inSale": true,
+             "fuel" : "Petrol",
+            "km" : "43000 km",
+            "posted": "2 months ago"
+        },
+        {
+            "id": "car-8",
+            "title": "Nissan Note e-Power Nismo 2020 | Nissan Note e-Power 2020 For Sale",
+            "price": "PKR 48.50 lacs",
+            "description": "Nissan Note e-Power Nismo 2020 Excellent condition, only used for school pick and drop. Michellin Tyres installed Maintained on Liqui Moly oil only. First owner, One hand driven , With No accident at all. Will be sold to the nearest offer",
+            "city": "Peshawar, Saddar",
+             "engineCC": 1800,
+            "powerHP": 158,
+            "image": [
+                "/images/nissan-1.png",
+                "/images/nissan-2.png"
+            ],
+            "sold": false,
+            "inSale": true,
+             "fuel" : "Petrol",
+            "km" : "90000 km",
+            "posted": "2 weeks ago"
+        },
+        {
+            "id": "car-9",
+            "title": "issan Serena 7seater,daul Ac,2018 Nissan Serena Epower.",
+            "price": "PKR 68.50 lacs",
+            "description": "Nissan Serena 2018 7 seater Epower daul Ac. import 2024 3.5 Graded spotless. Coz of mileage from Japan given 3.5 grade. 7 Seater Dual Ac Auto Brake Lane assist Auto Pilot Contact For information",
+            "city": "Peshawar, Saddar",
+             "engineCC": 1800,
+            "powerHP": 158,
+            "image": [
+                "/images/nissan-3.png",
+                "/images/nissan-4.png"
+            ],
+            "sold": false,
+            "inSale": true,
+             "fuel" : "Petrol",
+            "km" : "75000 km",
+            "posted": "3 months ago"
+        }
+    ],
+    "bikes": [
+        {
+            "id": "bike-1",
+            "title": "Honda heavy bike 200 cc",
+            "price": "PKR 2.20 lacs",
+            "description": "Fuel Tank: Custom paint ke sath old CG tank, Seat: Custom single seat (hand-made look),Tyres: Off-road / block pattern tyres (front & rear),Exhaust: Dual exhaust custom setup (rear view se clear),Handle & Lights: Modified handle, custom headlight & LED tail light.Suspension: Rear shocks upgraded look.Overall Look: Heavy, aggressive aur unique custom build",
+            "city": "Peshawar, Saddar",
+            "engineCC": 200,
+            "powerHP": 20,
+            "image": [
+                "/images/hondabike-1.png",
+                "/images/hondabike-2.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "bike-2",
+            "title": "Honda CB 150F 2019",
+            "price": "PKR 2.80 lacs",
+            "city": "Peshawar, Hayatabad",
+             "engineCC": 200,
+            "powerHP": 20,
+            "description": "- You may inspect the bike at Shaukat Khanum Hospita, Phase 5, Hayatabad.- Mechically good condition.- Maintained at the Honda's authorized workshop only.- Lower fuel consumption and excellent comfort level.- Very efficeint for long distance travelling, including travelling towards Northern areas of Pakistan.2-days full cash refund guarantee, if not satisfied. (Terms will be mutually agreed)- Price may be negotiated with a serious buyer only.",
+            "image": [
+                "/images/hondabike-1.png",
+                "/images/hondabike-2.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "bike-3",
+            "title": "YBR 125G",
+            "price": "PKR 3.25 lacs ",
+            "city": "Peshawar, Saddar",
+             "engineCC": 200,
+            "powerHP": 20,
+            "description": "urgent need to seal only serise buyer contect me full ok file completed and Peshawar number,thank you",
+            "image": [
+                "/images/yamaha-1.png",
+                "/images/yamaha-2.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "bike-4",
+            "title": "ATV QUAD DESERT OFF ROAD FOUR WHEEL DIRT 4 x 4 KIDS ADULTS GIRLS",
+            "price": "PKR 1.35 lacs ",
+            "city": "Peshawar, Saddar",
+             "engineCC": 200,
+            "powerHP": 20,
+            "description": "FOUR WHEEL BIKES IN OUR STOCK THE BEST ATV QUAD BIKE SHOWROOM DELIVERY ALL PAKISTAN STARTING PRICE 145,000 up to 850,00 we have the best quality products in our stock Desert Bike 4 x 4 Dirt Bikes available in Different colours different sizes for everyone For boys girls kids adults call or WhatsApp us for more details visit our showroom and get the best discount in Ramzan Kareem",
+            "image": [
+                "/images/yamaha-3.png",
+                "/images/yamaha-4.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "bike-5",
+            "title": "Kawasaki Ninja 250R 2022",
+            "price": "PKR 4.00 lacs ",
+            "city": "Peshawar, Saddar",
+            "engineCC": 250,
+            "powerHP": 20,
+            "description": "10/10 Condition No Discution Final Rait 400,000",
+            "image": [
+                "/images/kawa-1.png",
+                "/images/kawa-2.png",
+                "/images/kawa-3.png"
+            ],
+            "sold": false,
+            "inSale": true
+        },
+        {
+            "id": "bike-6",
+            "title": "Ovega",
+            "price": "PKR 55.55K ",
+            "year": "2025",
+            "km": "0000km", 
+            "fuel": "Petrol",
+            "city": "Peshawar",
+            "engineCC": 250,
+            "powerHP": 39,
+            "description": "10/10 Condition No Discution Final Rait 400,000",
+            "image": [
+                "/images/bike-1.png"
+            ],
+            "sold": false,
+            "inSale": true,
+            "posted" : "a month ago"
+        },
+         {
+            "id": "bike-7",
+            "title": "Suzuki GR 150 - Excel",
+            "price": "PKR 5.00 lacs ",
+            "year": "2025",
+            "km": "5600 km", 
+            "fuel": "Petrol",
+            "city": "Peshawar",
+            "engineCC": 250,
+            "powerHP": 45,
+            "description": "10/10 Condition No Discution Final Rait 400,000",
+            "image": [
+                "/images/bike-2.png"
+            ],
+            "sold": false,
+            "inSale": true,
+            "posted" : "a month ago"
+        },
+         {
+            "id": "bike-8",
+            "title": "Hi Spees Betlo",
+            "price": "PKR 4.90 lacs ",
+            "year": "2025",
+            "km": "4900 km", 
+            "fuel": "Petrol",
+            "city": "Peshawar",
+            "engineCC": 250,
+            "powerHP": 35,
+            "description": "10/10 Condition No Discution Final Rait 400,000",
+            "image": [
+                "/images/bike-3.png"
+            ],
+            "sold": false,
+            "inSale": true,
+            "posted" : "2 months ago"
+        },
+         {
+            "id": "bike-9",
+            "title": "Honda ",
+            "price": "PKR 3.6000k ",
+            "year": "2025",
+            "km": "5500 km", 
+            "fuel": "Petrol",
+            "city": "Peshawar",
+            "engineCC": 250,
+            "powerHP": 55,
+            "description": "10/10 Condition No Discution Final Rait 400,000",
+            "image": [
+                "/images/bike-4.png"
+            ],
+            "sold": false,
+            "inSale": true,
+            "posted" : "3 months ago"
+        }
+    ],
+    "AutoParts": [
+        {
+            "id": "p1",
+            "title": "all cup available",
+            "price": "PKR 500.00",
+            "city": "Peshawar, Gul Bahar",
+            "description": "All cup available rim plet chutay cl will cope available ",
+            "image": [
+                "/images/autoparts-1.png",
+                "/images/autoparts-2.png",
+                "/images/autoparts-3.png"
+            ],
+            "sold": true,
+            "inSale": false
+        },
+        {
+            "id": "p2",
+            "title": "all cup available",
+            "price": "PKR 500.00",
+            "city": "Peshawar, Gul Bahar",
+            "description": "All cup available rim plet chutay cl will cope available ",
+            "image": [
+                "/images/autoparts-4.png"
+            ],
+            "sold": true,
+            "inSale": false
+        },
+         {
+            "id": "p3",
+            "title": "COROLLA 2012 BODY KITS",
+            "price": "PKR 8.50 K",
+            "city": "Peshawar, Gul Bahar",
+            "description": "The Corolla 2012 Body Kits are aftermarket accessories designed to enhance the appearance and performance of the Toyota Corolla 2012 model. These body kits typically include front and rear bumpers, side skirts, spoilers, and other body panels that can give your vehicle a more aggressive and customized look. They are made from high-quality materials and are designed to fit seamlessly with your vehicle's existing bodywork. Installing these body kits can not only improve the aesthetics of your Corolla but also provide added aerodynamics and functionality. It's important to note that installation may require professional assistance, and it's always recommended to consult with a trusted automotive specialist before making any modifications to your vehicle. ",
+            "image": [
+                "/images/autopart-1.png"
+            ],
+            "type": "Exterior",
+            "sold": true,
+            "inSale": false,
+            "part": 200
+        },
+         {
+            "id": "p4",
+            "title": "Toyota fortuner or revo Sports Steering Wheel",
+            "price": "PKR 55.00 K",
+            "city": "Peshawar, Saddar",
+            "description": "Toyota fortuner or revo Sports Steering Wheel Condition: Same as shown in pictures High Quality & Ready to Install Universal Fit – Can be installed in all Toyota models please ask before order Great for car modification enthusiasts Limited stock available – Order now!For orders , delivery available all pakistan Upgrade your Toyota’s style & driving experience today! ",
+            "image": [
+                "/images/autopart-2.png"
+            ],
+            "type": "Exterior",
+            "sold": true,
+            "inSale": false,
+            "part": 200
+        },
+         {
+            "id": "p5",
+            "title": "all size tyre available smagal new",
+            "price": "PKR 50.00 K",
+            "city": "Peshawar, Saddar",
+            "description": "All size available 196 65 15 25 model ",
+            "image": [
+                "/images/autopart-3.png"
+            ],
+            "type" : "Tyre and Rims",
+            "sold": true,
+            "inSale": false,
+            "part": 200
+        },
+         {
+            "id": "p6",
+            "title": "all cup available",
+            "price": "PKR 500.00",
+            "city": "Peshawar, Gul Bahar",
+            "description": "All cup available rim plet chutay cl will cope available ",
+            "image": [
+                "/images/autopart-4.png"
+            ],
+            "type": "Car Exhausts",
+            "sold": true,
+            "inSale": false,
+            "part": 200
+        },
+         {
+            "id": "p7",
+            "title": "all stpni available",
+            "price": "PKR 6.00 K",
+            "city": "Peshawar, Gul Bahar",
+            "description": "All sptni available japani stpni 10 10 condition  ",
+            "image": [
+                "/images/autopart-5.png"
+            ],
+            "type": "Sports Car",
+            "sold": true,
+            "inSale": false,
+            "part": 200
+        }
+    ]
+}
