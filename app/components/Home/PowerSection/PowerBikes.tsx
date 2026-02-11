@@ -9,10 +9,11 @@ import { AiOutlineRight } from "react-icons/ai";
 
 export default function PowerBikesSection() {
   const powerCars = data.bikes.filter((bike) => bike.powerHP && bike.powerHP >= 25);
+  
 
   return (
     <div>
-      <div className="lg:mt-20 lg:ml-20 lg:mr-20  flex flex-col">
+      <div className="lg:mt-20 m-10 lg:ml-20 lg:mr-20  flex flex-col">
         <div className=" justify-between inline-flex">
           <Typography variant="h2" className="font-normal mb-4">Power Up Bikes</Typography>
           <div className="flex gap-1  lg:mt-5 mt-2 cursor-pointer">

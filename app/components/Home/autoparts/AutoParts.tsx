@@ -9,10 +9,11 @@ import { AiOutlineRight } from "react-icons/ai";
 
 export default function AutoPartsSection() {
   const autoParts = data.AutoParts.filter((autopart) => autopart.part && autopart.part >= 200);
+ 
 
   return (
     <div>
-      <div className="lg:mt-20 lg:ml-20 lg:mr-20  flex flex-col">
+      <div className="lg:mt-20 m-10 lg:ml-20 lg:mr-20  flex flex-col">
         <div className=" justify-between inline-flex">
           <Typography variant="h2" className="font-normal mb-4">Recent Auto Parts</Typography>
           <div className="flex gap-1  lg:mt-5 mt-2 cursor-pointer">
@@ -32,7 +33,7 @@ export default function AutoPartsSection() {
 
         <div className="lg:m-10">
           <CommonSlider
-            items={autoParts}
+            items={autoParts }
             autoplay
             slidesOnPhone={1}
             slidesOnTablet={2}

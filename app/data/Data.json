@@ -1,5 +1,5 @@
 {
-    "cars": [
+   "cars": [
         {
             "id": "car-1",
             "title": "Honda civic orial prosmatic ",
@@ -180,6 +180,8 @@
             "id": "bike-1",
             "title": "Honda heavy bike 200 cc",
             "price": "PKR 2.20 lacs",
+            "brand": "Honda",
+            "Model":"PRIDOR",
             "description": "Fuel Tank: Custom paint ke sath old CG tank, Seat: Custom single seat (hand-made look),Tyres: Off-road / block pattern tyres (front & rear),Exhaust: Dual exhaust custom setup (rear view se clear),Handle & Lights: Modified handle, custom headlight & LED tail light.Suspension: Rear shocks upgraded look.Overall Look: Heavy, aggressive aur unique custom build",
             "city": "Peshawar, Saddar",
             "engineCC": 200,
@@ -196,7 +198,9 @@
             "title": "Honda CB 150F 2019",
             "price": "PKR 2.80 lacs",
             "city": "Peshawar, Hayatabad",
+             "brand": "Honda",
              "engineCC": 200,
+             "Model":"CG 150",
             "powerHP": 20,
             "description": "- You may inspect the bike at Shaukat Khanum Hospita, Phase 5, Hayatabad.- Mechically good condition.- Maintained at the Honda's authorized workshop only.- Lower fuel consumption and excellent comfort level.- Very efficeint for long distance travelling, including travelling towards Northern areas of Pakistan.2-days full cash refund guarantee, if not satisfied. (Terms will be mutually agreed)- Price may be negotiated with a serious buyer only.",
             "image": [
@@ -211,6 +215,8 @@
             "title": "YBR 125G",
             "price": "PKR 3.25 lacs ",
             "city": "Peshawar, Saddar",
+             "brand": "Honda",
+             "Model":"GT Edition",
              "engineCC": 200,
             "powerHP": 20,
             "description": "urgent need to seal only serise buyer contect me full ok file completed and Peshawar number,thank you",
@@ -226,6 +232,8 @@
             "title": "ATV QUAD DESERT OFF ROAD FOUR WHEEL DIRT 4 x 4 KIDS ADULTS GIRLS",
             "price": "PKR 1.35 lacs ",
             "city": "Peshawar, Saddar",
+             "brand": "Honda",
+             "Model":"CD70 Dream",
              "engineCC": 200,
             "powerHP": 20,
             "description": "FOUR WHEEL BIKES IN OUR STOCK THE BEST ATV QUAD BIKE SHOWROOM DELIVERY ALL PAKISTAN STARTING PRICE 145,000 up to 850,00 we have the best quality products in our stock Desert Bike 4 x 4 Dirt Bikes available in Different colours different sizes for everyone For boys girls kids adults call or WhatsApp us for more details visit our showroom and get the best discount in Ramzan Kareem",
@@ -241,6 +249,8 @@
             "title": "Kawasaki Ninja 250R 2022",
             "price": "PKR 4.00 lacs ",
             "city": "Peshawar, Saddar",
+             "brand": "Honda",
+             "Model":"CG 125 Special Edition",
             "engineCC": 250,
             "powerHP": 20,
             "description": "10/10 Condition No Discution Final Rait 400,000",
@@ -259,6 +269,8 @@
             "year": "2025",
             "km": "0000km", 
             "fuel": "Petrol",
+             "brand": "Honda",
+             "Model":"CB 125 F",
             "city": "Peshawar",
             "engineCC": 250,
             "powerHP": 39,
@@ -276,6 +288,8 @@
             "price": "PKR 5.00 lacs ",
             "year": "2025",
             "km": "5600 km", 
+             "brand": "Suzuki",
+             "Model":"CB 150 F",
             "fuel": "Petrol",
             "city": "Peshawar",
             "engineCC": 250,
@@ -295,6 +309,8 @@
             "year": "2025",
             "km": "4900 km", 
             "fuel": "Petrol",
+             "brand": "Honda",
+             "Model":"CD 70",
             "city": "Peshawar",
             "engineCC": 250,
             "powerHP": 35,
@@ -311,6 +327,8 @@
             "title": "Honda ",
             "price": "PKR 3.6000k ",
             "year": "2025",
+             "brand": "Honda",
+             "Model":"CG 125",
             "km": "5500 km", 
             "fuel": "Petrol",
             "city": "Peshawar",
@@ -331,6 +349,8 @@
             "title": "all cup available",
             "price": "PKR 500.00",
             "city": "Peshawar, Gul Bahar",
+            "brand": "Auto Hub",
+            "category": "Car Exhausts",
             "description": "All cup available rim plet chutay cl will cope available ",
             "image": [
                 "/images/autoparts-1.png",
@@ -338,25 +358,31 @@
                 "/images/autoparts-3.png"
             ],
             "sold": true,
-            "inSale": false
+            "inSale": false,
+             "part": 100
         },
         {
             "id": "p2",
             "title": "all cup available",
             "price": "PKR 500.00",
             "city": "Peshawar, Gul Bahar",
+             "brand": "Car Geek",
+            "category": "Audio/Video",
             "description": "All cup available rim plet chutay cl will cope available ",
             "image": [
                 "/images/autoparts-4.png"
             ],
             "sold": true,
-            "inSale": false
+            "inSale": false,
+             "part": 100
         },
          {
             "id": "p3",
             "title": "COROLLA 2012 BODY KITS",
             "price": "PKR 8.50 K",
             "city": "Peshawar, Gul Bahar",
+             "brand": "Alpha Parts",
+            "category": "Tyre & Rims",
             "description": "The Corolla 2012 Body Kits are aftermarket accessories designed to enhance the appearance and performance of the Toyota Corolla 2012 model. These body kits typically include front and rear bumpers, side skirts, spoilers, and other body panels that can give your vehicle a more aggressive and customized look. They are made from high-quality materials and are designed to fit seamlessly with your vehicle's existing bodywork. Installing these body kits can not only improve the aesthetics of your Corolla but also provide added aerodynamics and functionality. It's important to note that installation may require professional assistance, and it's always recommended to consult with a trusted automotive specialist before making any modifications to your vehicle. ",
             "image": [
                 "/images/autopart-1.png"
@@ -371,6 +397,8 @@
             "title": "Toyota fortuner or revo Sports Steering Wheel",
             "price": "PKR 55.00 K",
             "city": "Peshawar, Saddar",
+             "brand": "Umar Tyres",
+            "category": "Car Care",
             "description": "Toyota fortuner or revo Sports Steering Wheel Condition: Same as shown in pictures High Quality & Ready to Install Universal Fit – Can be installed in all Toyota models please ask before order Great for car modification enthusiasts Limited stock available – Order now!For orders , delivery available all pakistan Upgrade your Toyota’s style & driving experience today! ",
             "image": [
                 "/images/autopart-2.png"
@@ -385,6 +413,8 @@
             "title": "all size tyre available smagal new",
             "price": "PKR 50.00 K",
             "city": "Peshawar, Saddar",
+             "brand": "PakWheels",
+            "category": "Brakes",
             "description": "All size available 196 65 15 25 model ",
             "image": [
                 "/images/autopart-3.png"
@@ -399,6 +429,8 @@
             "title": "all cup available",
             "price": "PKR 500.00",
             "city": "Peshawar, Gul Bahar",
+             "brand": "ZIC",
+            "category": "Interior",
             "description": "All cup available rim plet chutay cl will cope available ",
             "image": [
                 "/images/autopart-4.png"
@@ -413,6 +445,8 @@
             "title": "all stpni available",
             "price": "PKR 6.00 K",
             "city": "Peshawar, Gul Bahar",
+             "brand": "Alpha Pak",
+            "category": "Exterior",
             "description": "All sptni available japani stpni 10 10 condition  ",
             "image": [
                 "/images/autopart-5.png"

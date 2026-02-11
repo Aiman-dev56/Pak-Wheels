@@ -1,29 +1,22 @@
 import { CommonSlider } from "../../common/sliders";
+import "@/app/globals.css";
 
 const banners = [
     {
         id: "1",
-        imageUrl: "/images/banner1.png"
+        imageUrl: "/images/banner7.png"
     },
     {
         id: "2",
-        imageUrl: "/images/banner2.png"
-    },
-    {
-        id: "3",
-        imageUrl: "/images/banner3.png"
-    },
-    {
-        id: "4",
-        imageUrl: "/images/banner4.png"
+        imageUrl: "/images/banner8.png"
     }
 ];
 
 
 
-export default function BannerSec() {
+export default function AutoPartsBannerSec() {
   return (
-    <div className="max-w-6xl mx-auto p-10  lg:p-0 mt-10 mb-10">
+    <div className=" max-w-6xl lg:mx-auto p-4  lg:p-0  mt-10 mb-10">
         <CommonSlider
       items={banners}
       autoplay
@@ -32,7 +25,7 @@ export default function BannerSec() {
       slidesOnLargeScreens={1}
       renderItem={(banner) => (
         <div
-          className="h-[300px] rounded-xl bg-cover bg-center"
+          className="lg:h-[300px] h-[180px]  rounded-xl bg-cover bg-center"
           style={{ backgroundImage: `url(${banner.imageUrl})` }}
         />
       )}

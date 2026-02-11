@@ -11,6 +11,7 @@ import { useAuth } from "../context/AuthContext";
 import { useLanguage } from "../context/languageContext";
 import { en } from "@/locales/en";
 import { ur } from "@/locales/ur";
+import "@/app/globals.css"
 
 
 export const Header = () => {
@@ -20,7 +21,7 @@ export const Header = () => {
   const t = lang === "en" ? en : ur;
 
   return(
-    <div className="sticky top-0 z-50 w-full bg-white h-24 shadow flex justify-between">
+    <div className=" sticky top-0 z-50 w-full bg-white h-24 shadow flex justify-between">
       <div  className="p-3 lg:ml-10 gap-16 flex items-center">
          <Image src={Logo} alt="Logo" className="w-18 h-18" />
           <ul className="gap-12 p-6 lg:flex hidden text-[18px]">

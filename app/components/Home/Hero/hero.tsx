@@ -7,10 +7,11 @@ import { FaSearch } from "react-icons/fa";
 import { Typography } from "../../common/Typography";
 import { CityDropdown } from "../../common/CityDropdown/CityDropdown";
 import { PriceFilter } from "../pricefilter/PriceFilter";
+import "@/app/globals.css"
 
 export const Hero = () => {
     return (
-        <div className="relative w-full flex justify-center items-center h-full overflow-hidden">
+        <div className=" relative w-full flex flex-col justify-center items-center h-[600px] lg:h-full overflow-hidden">
 
             {/* ✅ Background Image 1 */}
             <Image
@@ -32,7 +33,7 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-black/40" />
 
             {/* ✅ Content */}
-            <div className="absolute inset-0 flex items-center justify-center px-4">
+            <div className="absolute inset-0 flex flex-coz items-center justify-center px-4">
                 <div className="w-full max-w-8xl text-center text-white">
 
                     <Typography variant="h1" className="font-light">
@@ -57,7 +58,7 @@ export const Hero = () => {
                             <input
                                 type="text"
                                 placeholder="Make or Model"
-                                className=" w-170 h-[44px] rounded-md bg-white pl-12 pr-4 text-gray-700 outline-none placeholder:animate-pulse"
+                                className=" lg:w-170 w-[300px] h-[44px] rounded-md bg-white pl-12 pr-4 text-gray-700 outline-none placeholder:animate-pulse"
                             />
                         </div>
                     </div>

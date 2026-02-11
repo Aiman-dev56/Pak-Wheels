@@ -5,6 +5,7 @@ import { Typography } from "../../common/Typography";
 import { useRouter } from "next/navigation";
 import { IoLocationOutline } from "react-icons/io5";
 
+
 interface AutoParts {
   id: string;
   title: string;
@@ -16,6 +17,7 @@ interface AutoParts {
   engineCC?: number;
   powerHP?: number;
   km?: string;
+  type: string;
   fuel?: string;
   posted?: string;
   description?: string;
@@ -23,6 +25,7 @@ interface AutoParts {
   image: string[];
   sold?: boolean;
   inSale?: boolean;
+  part: number;
 }
 
 type AutoPartsCardProps = {
@@ -31,6 +34,7 @@ type AutoPartsCardProps = {
 
 export default function AutoPartCarCard({ autoparts }: AutoPartsCardProps) {
   const router = useRouter();
+const cityName = autoparts.city?.split(",")[0];
 
   const handleClick = () => {
     // Navigate to car details page with id
@@ -51,7 +55,7 @@ export default function AutoPartCarCard({ autoparts }: AutoPartsCardProps) {
         />
 
         <span className="absolute top-3 left-2 bg-white px-2 w-28 py-2 text-xs md:text-sm rounded-full  flex items-center gap-1 truncate">
-          <IoLocationOutline /> {autoparts.city}
+          <IoLocationOutline /> {cityName}
         </span>
        
       </div>
@@ -59,8 +63,8 @@ export default function AutoPartCarCard({ autoparts }: AutoPartsCardProps) {
       <div className="p-4 space-y-1">
         {/* Title with ellipsis */}
         <Typography
-          variant="h3"
-          className="text-sm md:text-base font-semibold truncate"
+          variant="h5light"
+          className="text-[20px] truncate first-letter:uppercase"
         >
           {autoparts.title}
         </Typography>
@@ -78,7 +82,7 @@ export default function AutoPartCarCard({ autoparts }: AutoPartsCardProps) {
           variant="p"
           className="text-xs md:text-sm text-gray-500 truncate"
         >
-          {autoparts.year} | {autoparts.km ?? "-"} km | {autoparts.fuel ?? "Petrol"}
+          {autoparts.type}
         </Typography>
 
         {/* Posted info */}

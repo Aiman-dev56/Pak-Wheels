@@ -60,7 +60,7 @@ const categories : Category[] = [
 
 export const Category = () => {
     return(
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 m-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-4 m-8 lg:m-10">
             {categories.map((category) => (
                             <div
                                 key={category.name}

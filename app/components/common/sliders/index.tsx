@@ -36,7 +36,7 @@ export function CommonSlider<T>({
     spaceBetween = 20,
 
     slidesOnPhone = 1,
-    slidesOnTablet = 2,
+    slidesOnTablet = 1,
     slidesOnDesktop = 4,
     slidesOnLargeScreens = 4,
 

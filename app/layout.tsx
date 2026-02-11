@@ -9,6 +9,7 @@ import { AuthProvider } from "./context/AuthContext";
 import "./globals.css";
 import { useState } from "react";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -30,21 +31,23 @@ export default function RootLayout({ children }: {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}  antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable}  antialiased overflow-x-hidden`}
       >
         <AuthProvider>
           <LanguageProvider>
-          <Header />
+            <Header />
             <Model open={openRegister} onClose={() => setOpenRegister(false)}>
-              
+
             </Model>
-          {children}
-        </LanguageProvider>
-        </AuthProvider>
-        
+
+            {children}
           
-        
-        
+          </LanguageProvider>
+        </AuthProvider>
+
+
+
+
 
 
       </body>

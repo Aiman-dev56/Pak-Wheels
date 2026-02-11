@@ -15,7 +15,7 @@ const banners = [
 
 export default function BikeBannerSec() {
   return (
-    <div className="max-w-6xl mx-auto mt-10 mb-10">
+    <div className="max-w-6xl mx-auto p-10  lg:p-0 mt-10 mb-10">
         <CommonSlider
       items={banners}
       autoplay

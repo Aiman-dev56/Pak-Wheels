@@ -41,15 +41,15 @@ const tags: Record<Variant, ElementType> = {
 };
 
 const sizes: Record<Variant, string> = {
-  h1: "lg:text-5xl md:text-3xl text-2xl font-semibold",
-  h2: "lg:text-4xl text-3xl font-semibold",
-  h3: "lg:text-3xl text-2xl font-medium",
-  h4: "lg:text-2xl text-xl font-medium",
-  h5: "lg:text-xl text-lg font-medium",
-  h5bold: "lg:text-[17px] text-lg font-semibold",
+  h1: "2xl:text-5xl lg:text-4xl first-letter:uppercase md:text-3xl text-2xl font-semibold",
+  h2: "lg:text-4xl text-3xl first-letter:uppercase font-semibold",
+  h3: "lg:text-2xl  text-2xl first-letter:uppercase font-medium",
+  h4: "lg:text-2xl text-xl first-letter:uppercase font-medium",
+  h5: "lg:text-xl text-lg first-letter:uppercase font-medium",
+  h5bold: "lg:text-[17px] text-lg first-letter:uppercase font-semibold",
   h5light: "lg:text-[17px] text-lg font-light",
   h6: "lg:text-[16px]",
-  p: "text-base font-normal",
+  p: "text-base font-normal lg:text-sm",
   span: "text-base font-normal",
   label: "text-sm font-medium",
   bodyregular: "text-base font-normal",

@@ -16,7 +16,7 @@ type customLinksProps = {
 
 
 export default function CustomLinks({
-    href,
+    href =  "string",
     text,
     fontSize = "20px",
     fontWeight = "400",

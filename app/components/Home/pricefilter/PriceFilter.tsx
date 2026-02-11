@@ -47,9 +47,10 @@ export const PriceFilter = () => {
     };
 
     return(
-        <div className="flex flex-col gap-5 items-center">
-            <div className="flex mt-8 gap-1">
-                 <div className="flex flex-col w-84 ">
+        <div className="flex flex-col">
+            <div className="flex flex-col gap-5 items-center">
+            <div className="lg:flex-row flex flex-col lg:mb-0 mb-2 mt-8 gap-6">
+                 <div className="flex flex-col w-[300px] mx-auto sm:mx-0  lg:w-82 ">
                  
             <select className="border p-3 rounded-md bg-white text-gray-400 cursor-pointer"
             value={minPrice}
@@ -64,12 +65,12 @@ export const PriceFilter = () => {
 
             </select>
             </div>
-           <div className="flex flex-col w-84">
+           <div className="flex flex-col w-[300px] mx-auto sm:mx-0 lg:w-82">
             
             <select className="border p-3 rounded-md bg-white text-gray-400 cursor-pointer"
             value={maxPrice}
             onChange={(e) => setMaxPrice(e.target.value)}>
-                <option value="">Price To</option>
+                <option value="" >Price To</option>
                 {prices.map((p) => (
                     <option key={p}>{p}</option>
                 ))}
@@ -79,7 +80,7 @@ export const PriceFilter = () => {
             </div>
            
 
-           <button onClick={handleSearch} className="bg-orange-600 text-white w-[55%] h-12 rounded-md px-2 transition-all duration-700 hover:opacity-35 cursor-pointer">Search</button>
+           <button onClick={handleSearch} className="bg-orange-600 text-white w-96 md:w-98 lg:w-[55%] h-12 rounded-md px-2 transition-all duration-700 hover:opacity-35 cursor-pointer">Search</button>
            <button className="bg-transparent py-2 rounded-md px-6  border-2 border-orange-500 cursor-pointer">
             Advanced Filters
            </button>
@@ -87,6 +88,8 @@ export const PriceFilter = () => {
           
 
         </div>
+        </div>
+        
         
     )
 }

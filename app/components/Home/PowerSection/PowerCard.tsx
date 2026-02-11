@@ -30,6 +30,7 @@ type PowerCarCardProps = {
 };
 
 export default function PowerCarCard({ car }: PowerCarCardProps) {
+  const cityName = car.city?.split(",")[0];
   const router = useRouter();
 
   const handleClick = () => {
@@ -51,7 +52,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
         />
 
         <span className="absolute top-3 left-2 bg-white px-2 w-28 py-2 text-xs md:text-sm rounded-full  flex items-center gap-1 truncate">
-          <IoLocationOutline /> {car.city}
+          <IoLocationOutline /> {cityName}
         </span>
         <span className="absolute top-3 right-0 bg-orange-500 text-white px-2 py-2 text-xs md:text-sm rounded-md flex items-center gap-1">
           ⚡ POWERUP
@@ -62,7 +63,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
         {/* Title with ellipsis */}
         <Typography
           variant="h3"
-          className="text-sm md:text-base font-semibold truncate"
+          className="text-sm md:text-base truncate"
         >
           {car.title}
         </Typography>
@@ -70,7 +71,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
         {/* Price */}
         <Typography
           variant="p"
-          className="text-sm md:text-base text-gray-600 truncate"
+          className="text-sm md:text-base text-gray-800 truncate"
         >
           PKR {car.price}
         </Typography>

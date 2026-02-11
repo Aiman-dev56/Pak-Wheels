@@ -23,10 +23,10 @@ const powerCars = data.cars
 
     return (
         <div>
-             <div className="lg:mt-24 mt-20 m-8">
+             <div className="lg:mt-24 mt-20 m-8 container mx-auto ">
             <Typography variant="h1" className="font-light">Browse Cars</Typography>
-            <div className="flex m-10 gap-12 list-none text-[20px] ">
-                <ul className="flex gap-10 mt-8 ">
+            <div className="flex lg:m-10 gap-12 list-none text-[20px] ">
+                <ul className="flex gap-6 lg:gap-10 mt-8 ">
                     {tabs.map((tab) => (
                         <li key={tab}
                         onClick={() => setActiveOptions(tab)}

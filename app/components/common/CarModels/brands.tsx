@@ -63,7 +63,7 @@ const cars: CarModel[]= [
     
     export const CarModel = () => {
         return (
-        <div className="grid grid-cols-3 lg:grid-cols-6 sm:grid-cols-3 md:grid-cols-4 gap-6 m-18">
+        <div className="grid grid-cols-3 lg:grid-cols-6 sm:grid-cols-3 md:grid-cols-4 gap-6 m-8 lg:m-18">
             {cars.map((car) => (
                 <div
                     key={car.name}

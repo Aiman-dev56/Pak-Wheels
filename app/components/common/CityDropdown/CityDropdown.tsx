@@ -2,7 +2,7 @@
 
 "use client";
 
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { PakistanCities } from "./PakistanCities";
 import { RiArrowDownSLine } from "react-icons/ri";
@@ -27,7 +27,8 @@ export const CityDropdown = () => {
   };
 
   return (
-    <div className="relative  w-[55%] mx-auto mt-8">
+    <div className="flex justify-center items-center">
+      <div className="relative w-[300px] lg:w-[55%] lg:mx-auto md:w-96  mt-8">
       {/* Input */}
       <input
         type="text"
@@ -75,5 +76,7 @@ export const CityDropdown = () => {
         </div>
       )}
     </div>
+    </div>
+    
   );
 };
