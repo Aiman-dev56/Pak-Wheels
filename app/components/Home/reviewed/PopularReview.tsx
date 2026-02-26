@@ -1,7 +1,6 @@
 "use client";
 
 import { Typography } from "../../common/Typography";
-import PowerCarCard from "../PowerSection/PowerCard";
 import { CommonSlider } from "../../common/sliders";
 import { AiOutlineRight } from "react-icons/ai";
 import ReviewCarCard from "./ReviewCard";
@@ -105,7 +104,7 @@ export default function ReviewCarsSection() {
     ]
 
       return (
-        <div>
+        <div className="container">
           <div className="lg:mt-20 lg:ml-20 m-10 lg:mr-20  flex flex-col">
             <div className=" justify-between inline-flex">
               <Typography variant="h2" className="font-normal mb-4">Popular Reviewed</Typography>
@@ -132,7 +131,7 @@ export default function ReviewCarsSection() {
                 slidesOnTablet={2}
                 slidesOnDesktop={4}
                 slidesOnLargeScreens={5}
-                renderItem={(carcards) => <ReviewCarCard carcards={carcards} />}
+                renderItem={(carcards) => <ReviewCarCard cards={carcards} />}
 
               />
 

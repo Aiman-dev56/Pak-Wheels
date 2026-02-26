@@ -5,7 +5,7 @@ import { Typography } from "../../common/Typography";
 import { useRouter } from "next/navigation";
 import { StarRating } from "./StarRating";
 
-interface CarCards {
+interface Cards {
   id: string;
   title: string;
    image: string;
@@ -14,22 +14,22 @@ interface CarCards {
 }
 
 type ReviewCardProps = {
-  carcards: CarCards;
+  cards: Cards;
 };
 
-export default function ReviewCarCard({ carcards }: ReviewCardProps) {
+export default function ReviewCarCard({ cards }: ReviewCardProps) {
   const router = useRouter();
 
   return (
    <div
   className="w-full h-90 bg-gray-50 rounded-2xl mt-6 overflow-hidden cursor-pointer"
-  onClick={() => router.push(`/cars/${carcards.id}`)}
+  onClick={() => router.push(`/cars/${cards.id}`)}
 >
   {/* IMAGE SECTION */}
   <div className="relative h-50 m-2 bg-gray-100 flex items-center justify-center">
     <Image
-      src={carcards.image}
-      alt={carcards.title}
+      src={cards.image}
+      alt={cards.title}
       width={160}
       height={160}
       className="object-contain"
@@ -42,11 +42,11 @@ export default function ReviewCarCard({ carcards }: ReviewCardProps) {
       variant="h5light"
       className=" md:text-base truncate"
     >
-      {carcards.title}
+      {cards.title}
     </Typography>
     <div className="mt-4">
-        <StarRating rating={carcards.review}  />
-        <Typography variant="p" className="mt-4">{carcards.reviewtext}</Typography>
+        <StarRating rating={cards.review}  />
+        <Typography variant="p" className="mt-4">{cards.reviewtext}</Typography>
     </div>
 
     

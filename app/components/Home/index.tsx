@@ -1,5 +1,5 @@
-import { Products } from "./products/products";
-import { Hero } from "./Hero/hero";
+import { Products } from "./products";
+import { Hero } from "./Hero";
 import BannerSec from "./banners/CarBanners";
 import PowerCarsSection from "./PowerSection/PowerCars";
 import PowerBikesSection from "./PowerSection/PowerBikes";
@@ -14,19 +14,11 @@ import { Footer } from "../Footer";
 
 
 
-
-
-
-
 export default function Home() {
-
-
-
     return (
         <div>
-
             <Hero />
-            <Products />
+            <Products type="cars" />
             <PowerCarsSection />
             <BannerSec />
             <PowerBikesSection />
@@ -36,9 +28,7 @@ export default function Home() {
             <ReviewCarsSection />
             <BrowseBannerSec />
             <VideoGallery videos={videoData} />
-            <Footer/>
-           
-
+            <Footer />
         </div>
     )
 }

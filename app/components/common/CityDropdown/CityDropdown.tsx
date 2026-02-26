@@ -1,4 +1,4 @@
-//dropdown of cities
+// cities dropdown
 
 "use client";
 
@@ -27,56 +27,58 @@ export const CityDropdown = () => {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <div className="relative w-[300px] lg:w-[55%] lg:mx-auto md:w-96  mt-8">
-      {/* Input */}
-      <input
-        type="text"
-        placeholder="Search city..."
-        value={search}
-        onChange={(e) => {
-          setSearch(e.target.value);
-          setOpen(true);
-        }}
-        onFocus={() => setOpen(true)}
-        className="w-full h-12 rounded-md border text-gray-700 bg-white pl-4 pr-10 outline-none"
-      />
+    <div className="mt-8 flex justify-center">
+      <div className="relative w-full max-w-2xl">
+        
+        {/* Input */}
+        <input
+          type="text"
+          placeholder="Search city..."
+          value={search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setOpen(true);
+          }}
+          onFocus={() => setOpen(true)}
+          className="w-full h-12 rounded-md bg-white pl-12 pr-4 text-gray-700 outline-none focus:ring-2 focus:ring-blue-500"
+        />
 
-      {/* Dropdown Icon */}
-      <button
-        type="button"
-        onClick={() => setOpen((prev) => !prev)}
-        className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
-      >
-        <RiArrowDownSLine size={20} className="cursor-pointer"/>
-      </button>
+        {/* Dropdown Icon */}
+        <button
+          type="button"
+          onClick={() => setOpen((prev) => !prev)}
+          className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
+        >
+          <RiArrowDownSLine size={22} />
+        </button>
 
-      {/* Dropdown List */}
-      {open && (
-        <div className={`
-    absolute top-10 overflow-y-auto mt-2 w-full rounded-md bg-white text-gray-600 shadow-lg
-    transition-all duration-600 ease-in-out
-    ${open
-      ? "opacity-100 translate-y-0 scale-100 pointer-events-auto"
-      : "opacity-0 -translate-y-2 scale-95 pointer-events-none"}
-  `}>
-          {filteredCities.length === 0 ? (
-            <p className="p-3 text-gray-500">No city found</p>
-          ) : (
-            filteredCities.map((city) => (
-              <button
-                key={city}
-                onClick={() => handleSelectCity(city)}
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-              >
-                {city}
-              </button>
-            ))
-          )}
-        </div>
-      )}
+        {/* Dropdown List */}
+        {open && (
+          <div
+            className="
+              absolute top-full mt-2 w-full 
+              max-h-60 overflow-y-auto 
+              rounded-md bg-white shadow-lg border border-gray-200
+              transition-all duration-200 ease-in-out text-black
+              z-50
+            "
+          >
+            {filteredCities.length === 0 ? (
+              <p className="p-3 text-gray-500">No city found</p>
+            ) : (
+              filteredCities.map((city) => (
+                <button
+                  key={city}
+                  onClick={() => handleSelectCity(city)}
+                  className="w-full text-left px-4 py-2 hover:bg-gray-100 transition"
+                >
+                  {city}
+                </button>
+              ))
+            )}
+          </div>
+        )}
+      </div>
     </div>
-    </div>
-    
   );
 };

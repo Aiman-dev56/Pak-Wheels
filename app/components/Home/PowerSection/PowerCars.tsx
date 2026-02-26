@@ -11,7 +11,7 @@ export default function PowerCarsSection() {
   const powerCars = data.cars.filter((car) => car.engineCC && car.engineCC >= 2000);
 
   return (
-    <div>
+    <div className="container">
       <div className="lg:mt-20 lg:ml-20 lg:mr-20 m-10 flex flex-col">
         <div className=" justify-between inline-flex">
           <Typography variant="h2" className="font-normal mb-4">Power Up Cars</Typography>

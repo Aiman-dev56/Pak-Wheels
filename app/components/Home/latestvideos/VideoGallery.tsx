@@ -27,8 +27,8 @@ export const VideoGallery = ({ videos }: VideoGalleryProps) => {
   };
 
   return (
-    <>
-      <div className="lg:mt-20 lg:ml-20 m-10 lg:mr-20  flex flex-col">
+    <div className="container">
+      <div className="  lg:mt-20 lg:ml-20 m-10 lg:mr-20  flex flex-col">
                 <div className=" justify-between inline-flex">
                   <Typography variant="h2" className="font-normal mb-4">Latest Videos</Typography>
                   <div className="flex gap-1  lg:mt-5 mt-2 cursor-pointer">
@@ -42,7 +42,7 @@ export const VideoGallery = ({ videos }: VideoGalleryProps) => {
     
     
               </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 m-16">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-2 lg:m-16 m-4">
         {videos.map((video) => (
           <VideoCard key={video.id} video={video} onOpenModal={handleOpenModal} />
         ))}
@@ -53,6 +53,6 @@ export const VideoGallery = ({ videos }: VideoGalleryProps) => {
         isOpen={isModalOpen}
         onClose={handleCloseModal}
       />
-    </>
+    </div>
   );
 };

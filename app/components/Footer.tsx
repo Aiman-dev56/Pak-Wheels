@@ -72,7 +72,7 @@ export const Footer = () => {
 
 
     return (
-        <div className="container bg-black text-white  w-full">
+        <div className=" mx-auto bg-black text-white  w-full  p-5 lg:p-0 bottom-0 ">
             <div className=" sm:grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:p-20 md:p-16 ">
                 <div className="flex flex-col">
                     <Image
@@ -137,7 +137,7 @@ export const Footer = () => {
                     <Typography variant="h5light" className="text-[20px] mt-8 lg:mt-0">{heading} By Models</Typography>
                     <hr className="border-2 rounded mt-2"></hr>
                     <ul className="space-y-3 mt-4 p-3 text-[16px] list-disc">
-                        {carModels.map((brand) => (
+                        {modelslist.map((brand) => (
                             <li key={brand}>
                                 <Link href={`/${heading.toLowerCase()}?brand=${brand}`}>
                                     {brand}
@@ -149,13 +149,13 @@ export const Footer = () => {
 
                 </div>
                 <div className="flex flex-col">
-                    <div className="inline-block w-36">
+                    <div className="inline-block ">
                           <Typography variant="h5light" className="text-[20px] mt-8 lg:mt-0">{heading} by Cities</Typography>
                     <hr className="border-2 rounded mt-2 "></hr>
                     </div>
                   
                     <ul className="space-y-3 mt-4 p-3 text-[16px] list-disc">
-                        {carCity.map((brand) => (
+                        {citylist.map((brand) => (
                             <li key={brand}>
                                 <Link href={`/${heading.toLowerCase()}?brand=${brand}`}>
                                     {brand}
@@ -214,7 +214,7 @@ export const Footer = () => {
                 </div>
 
             </div>
-            <hr className="border-t border-gray-700" />
+            <hr className="border-t  mt-6 lg:mt-0 border-gray-700" />
             <div className="text-center  text-sm py-4">
                 <Typography  variant="h5">ⓒ All Right Are Reserved.The Premier Vehicles</Typography>
 

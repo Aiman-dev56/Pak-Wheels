@@ -12,7 +12,7 @@ export default function PowerBikesSection() {
   
 
   return (
-    <div>
+    <div className="container">
       <div className="lg:mt-20 m-10 lg:ml-20 lg:mr-20  flex flex-col">
         <div className=" justify-between inline-flex">
           <Typography variant="h2" className="font-normal mb-4">Power Up Bikes</Typography>

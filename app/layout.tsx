@@ -39,8 +39,11 @@ export default function RootLayout({ children }: {
             <Model open={openRegister} onClose={() => setOpenRegister(false)}>
 
             </Model>
+            <div className="overflow-x-hidden">
+              {children}
+            </div>
 
-            {children}
+            
           
           </LanguageProvider>
         </AuthProvider>

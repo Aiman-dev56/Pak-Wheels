@@ -39,7 +39,7 @@ export const VideoCard = ({ video, onOpenModal }: VideoCardProps) => {
   };
 
   return (
-    <div className="bg-white rounded-2xl overflow-hidden h-60 shadow-2xl hover:shadow-3xl ">
+    <div className=" bg-gray-100 rounded-b-2xl overflow-hidden h-60 w-40 lg:w-70 lg:h-60 2xl:h-70   ">
       <div
         className="relative w-full h-40 pt-[56.25%] bg-black overflow-hidden cursor-pointer group"
         onMouseEnter={() => setIsHovered(true)}

@@ -1,5 +1,6 @@
 import React, { type ElementType } from "react";
-import { cn } from "@/app/lib/utils";
+// import { cn } from "@/app/lib/utils";
+import clsx from "clsx";
 
 type Variant =
   | "h1"
@@ -41,15 +42,15 @@ const tags: Record<Variant, ElementType> = {
 };
 
 const sizes: Record<Variant, string> = {
-  h1: "2xl:text-5xl lg:text-4xl first-letter:uppercase md:text-3xl text-2xl font-semibold",
-  h2: "lg:text-4xl text-3xl first-letter:uppercase font-semibold",
-  h3: "lg:text-2xl  text-2xl first-letter:uppercase font-medium",
+  h1: "2xl:text-5xl lg:text-4xl first-letter:uppercase md:text-3xl text-xl font-semibold",
+  h2: "lg:text-4xl text-xl first-letter:uppercase font-semibold",
+  h3: "lg:text-2xl  text-xl first-letter:uppercase font-medium",
   h4: "lg:text-2xl text-xl first-letter:uppercase font-medium",
   h5: "lg:text-xl text-lg first-letter:uppercase font-medium",
   h5bold: "lg:text-[17px] text-lg first-letter:uppercase font-semibold",
   h5light: "lg:text-[17px] text-lg font-light",
   h6: "lg:text-[16px]",
-  p: "text-base font-normal lg:text-sm",
+  p: "text-base font-light lg:text-sm",
   span: "text-base font-normal",
   label: "text-sm font-medium",
   bodyregular: "text-base font-normal",
@@ -76,7 +77,7 @@ export const Typography = ({
   const Tag = as ?? tags[variant];
 
   return (
-    <Tag className={cn`${sizes[variant]} ${className}`}>
+    <Tag className={clsx`${sizes[variant]} ${className}`}>
       {children}
     </Tag>
   );

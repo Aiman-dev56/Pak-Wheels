@@ -40,7 +40,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
 
   return (
     <div
-      className="w-full flex flex-col gap-2 bg-white border border-orange-400 rounded-2xl mt-6 overflow-hidden cursor-pointer "
+      className="container w-full flex flex-col gap-2 bg-white border  border-orange-400 rounded-2xl mt-6 overflow-hidden cursor-pointer "
       onClick={handleClick}
     >
       <div className="relative h-48 w-full">
