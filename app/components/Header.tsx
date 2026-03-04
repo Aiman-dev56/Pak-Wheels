@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState , useEffect } from "react";
+import { useState  } from "react";
 import CustomLinks from "./common/customlinks/CustomLinks";
 import Logo from "../../public/images/Mask group.png";
 import AuthModal from "./auth/AuthModel";
@@ -60,7 +60,7 @@ export const Header = () => {
           />
 
           <CustomLinks
-            href="/pages/forums"
+            href="/forums"
             text={t.forums}
             fontWeight={pathname === "/forums" ? "font-bold" : "font-normal"}
             color={pathname === "/forums" ? "text-orange-500" : "text-black"}
@@ -90,7 +90,7 @@ export const Header = () => {
               {user.name?.charAt(0).toUpperCase()}
             </div>
             <span className="font-medium">{user.name}</span>
-           <Button onClick={logout} className="text-sm ">Logout</Button>
+           <Button href="#" className="text-sm ">+ Post Add</Button>
           </div>
          )}
        

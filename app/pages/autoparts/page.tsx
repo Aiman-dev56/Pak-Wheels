@@ -1,7 +1,7 @@
 "use client";
 
 import { Footer } from "@/app/components/Footer";
-import AutoPartsSection from "@/app/components/Home/autoparts/AutoParts";
+import AutoPartsSection from "@/app/components/Home/autopartscomp/AutoParts";
 import AutoPartsBannerSec from "@/app/components/Home/banners/AutoPartsBanners";
 import BrowseBannerSec from "@/app/components/Home/banners/BrowseBanner";
 import { Hero } from "@/app/components/Home/Hero";

@@ -10,6 +10,7 @@
             "year": "2019",
             "engineCC": 25000,
             "powerHP": 158,
+            "speed": 2000,
             "description": "its one of its kind totally geniun fabric best comdition just 4 spray in trunk android panel in dash lighting biomatric on spot transfer must exchange possible with Honda civic x or jeep etc",
             "city": "peshawar",
             "image": [
@@ -32,6 +33,7 @@
             "category": "Family Cars",
             "year": "2019",
             "engineCC": 1800,
+            "speed": 2000,
             "powerHP": 158,
             "city": "islamabad",
             "image": [
@@ -54,6 +56,7 @@
             "Model": "Civic",
             "category": "seden",
             "year": "2019",
+            "speed": 2000,
             "engineCC": 1000,
             "powerHP": 100,
              "fuel" : "Petrol",
@@ -74,7 +77,9 @@
             "city": "Mardan",
              "engineCC": 2500,
             "powerHP": 158,
+            "year":2019,
              "fuel" : "Petrol",
+             "speed": 2000,
             "km" : "25000 km",
             "posted": "a month ago",
             "image": [
@@ -91,6 +96,8 @@
             "description": "toyota yaris 2025 model b2b neat clean 33000 kolometer",
             "city": "Peshawar, Dalazak Road",
              "engineCC": 1800,
+             "speed": 2000,
+              "year":2019,
             "powerHP": 158,
              "fuel" : "Petrol",
             "km" : "189000 km",
@@ -110,6 +117,8 @@
             "city": "Peshawar, Saddar",
             "engineCC": 1500,
             "powerHP": 201,
+             "year":2019,
+             "speed":2000,
              "fuel" : "Petrol",
             "km" : "30000 km",
             "posted": "8 days ago",
@@ -126,6 +135,8 @@
             "price": "PKR 302.58 Cr",
             "description": "",
              "engineCC": 1800,
+             "year":2019,
+             "speed":2000,
             "powerHP": 158,
             "city": "Rawalpindi, Airport Housing Society",
             "image": [
@@ -145,6 +156,8 @@
             "description": "Nissan Note e-Power Nismo 2020 Excellent condition, only used for school pick and drop. Michellin Tyres installed Maintained on Liqui Moly oil only. First owner, One hand driven , With No accident at all. Will be sold to the nearest offer",
             "city": "Peshawar, Saddar",
              "engineCC": 1800,
+             "year":2019,
+             "speed":2000,
             "powerHP": 158,
             "image": [
                 "/images/nissan-1.png",
@@ -185,6 +198,8 @@
             "description": "Fuel Tank: Custom paint ke sath old CG tank, Seat: Custom single seat (hand-made look),Tyres: Off-road / block pattern tyres (front & rear),Exhaust: Dual exhaust custom setup (rear view se clear),Handle & Lights: Modified handle, custom headlight & LED tail light.Suspension: Rear shocks upgraded look.Overall Look: Heavy, aggressive aur unique custom build",
             "city": "Peshawar, Saddar",
             "engineCC": 200,
+            "year":2019,
+             "speed":2000,
             "powerHP": 20,
             "image": [
                 "/images/hondabike-1.png",
@@ -200,6 +215,8 @@
             "city": "Peshawar, Hayatabad",
              "brand": "Honda",
              "engineCC": 200,
+             "year":2019,
+             "speed":2000,
              "Model":"CG 150",
             "powerHP": 20,
             "description": "- You may inspect the bike at Shaukat Khanum Hospita, Phase 5, Hayatabad.- Mechically good condition.- Maintained at the Honda's authorized workshop only.- Lower fuel consumption and excellent comfort level.- Very efficeint for long distance travelling, including travelling towards Northern areas of Pakistan.2-days full cash refund guarantee, if not satisfied. (Terms will be mutually agreed)- Price may be negotiated with a serious buyer only.",
@@ -217,6 +234,8 @@
             "city": "Peshawar, Saddar",
              "brand": "Honda",
              "Model":"GT Edition",
+             "year":2019,
+             "speed":2000,
              "engineCC": 200,
             "powerHP": 20,
             "description": "urgent need to seal only serise buyer contect me full ok file completed and Peshawar number,thank you",
@@ -234,6 +253,8 @@
             "city": "Peshawar, Saddar",
              "brand": "Honda",
              "Model":"CD70 Dream",
+             "year":2019,
+             "speed":2000,
              "engineCC": 200,
             "powerHP": 20,
             "description": "FOUR WHEEL BIKES IN OUR STOCK THE BEST ATV QUAD BIKE SHOWROOM DELIVERY ALL PAKISTAN STARTING PRICE 145,000 up to 850,00 we have the best quality products in our stock Desert Bike 4 x 4 Dirt Bikes available in Different colours different sizes for everyone For boys girls kids adults call or WhatsApp us for more details visit our showroom and get the best discount in Ramzan Kareem",
@@ -253,6 +274,8 @@
              "Model":"CG 125 Special Edition",
             "engineCC": 250,
             "powerHP": 20,
+            "year":2019,
+             "speed":2000,
             "description": "10/10 Condition No Discution Final Rait 400,000",
             "image": [
                 "/images/kawa-1.png",
@@ -273,6 +296,7 @@
              "Model":"CB 125 F",
             "city": "Peshawar",
             "engineCC": 250,
+             "speed":2000,
             "powerHP": 39,
             "description": "10/10 Condition No Discution Final Rait 400,000",
             "image": [
@@ -286,7 +310,7 @@
             "id": "bike-7",
             "title": "Suzuki GR 150 - Excel",
             "price": "PKR 5.00 lacs ",
-            "year": "2025",
+            "year": 2025,
             "km": "5600 km", 
              "brand": "Suzuki",
              "Model":"CB 150 F",
@@ -294,6 +318,8 @@
             "city": "Peshawar",
             "engineCC": 250,
             "powerHP": 45,
+           
+             "speed":2000,
             "description": "10/10 Condition No Discution Final Rait 400,000",
             "image": [
                 "/images/bike-2.png"
@@ -306,7 +332,7 @@
             "id": "bike-8",
             "title": "Hi Spees Betlo",
             "price": "PKR 4.90 lacs ",
-            "year": "2025",
+            "year": 2025,
             "km": "4900 km", 
             "fuel": "Petrol",
              "brand": "Honda",
@@ -314,6 +340,7 @@
             "city": "Peshawar",
             "engineCC": 250,
             "powerHP": 35,
+            "speed": 2000,
             "description": "10/10 Condition No Discution Final Rait 400,000",
             "image": [
                 "/images/bike-3.png"
@@ -326,7 +353,7 @@
             "id": "bike-9",
             "title": "Honda ",
             "price": "PKR 3.6000k ",
-            "year": "2025",
+            "year": 2025,
              "brand": "Honda",
              "Model":"CG 125",
             "km": "5500 km", 
@@ -334,6 +361,7 @@
             "city": "Peshawar",
             "engineCC": 250,
             "powerHP": 55,
+            "speed": 2000,
             "description": "10/10 Condition No Discution Final Rait 400,000",
             "image": [
                 "/images/bike-4.png"
@@ -359,6 +387,8 @@
             ],
             "sold": true,
             "inSale": false,
+            "speed": 2000,
+            "year": 2024,
              "part": 100
         },
         {

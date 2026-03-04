@@ -38,7 +38,7 @@ const cityName = autoparts.city?.split(",")[0];
 
   const handleClick = () => {
     // Navigate to car details page with id
-    router.push(`/cars/${autoparts.id}`);
+    router.push(`/pages/autoparts/${autoparts.id}`);
   };
 
   return (

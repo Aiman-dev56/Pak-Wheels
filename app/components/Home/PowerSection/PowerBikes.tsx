@@ -38,7 +38,7 @@ export default function PowerBikesSection() {
             slidesOnTablet={2}
             slidesOnDesktop={4}
             slidesOnLargeScreens={5}
-            renderItem={(car) => <PowerCarCard car={car} />}
+            renderItem={(bike) => <PowerCarCard bike={bike} />}
 
           />
 

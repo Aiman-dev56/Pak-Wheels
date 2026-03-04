@@ -5,7 +5,7 @@ import { Typography } from "../../common/Typography";
 import { useRouter } from "next/navigation";
 import { IoLocationOutline } from "react-icons/io5";
 
-interface Car {
+interface Bike {
   id: string;
   title: string;
   price: string;
@@ -26,16 +26,17 @@ interface Car {
 }
 
 type PowerCarCardProps = {
-  car: Car;
+  bike: Bike;
 };
 
-export default function PowerCarCard({ car }: PowerCarCardProps) {
-  const cityName = car.city?.split(",")[0];
+export default function PowerCarCard({ bike }: PowerCarCardProps) {
+  if(!bike) return null;
+  const cityName = bike.city?.split(",")[0];
   const router = useRouter();
 
   const handleClick = () => {
     // Navigate to car details page with id
-    router.push(`/cars/${car.id}`);
+    router.push(`bikes/${bike.id}`);
   };
 
   return (
@@ -45,8 +46,8 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
     >
       <div className="relative h-48 w-full">
         <Image
-          src={car.image[0]}
-          alt={car.title}
+          src={bike.image[0]}
+          alt={bike.title}
           fill
           className="object-cover rounded-t-2xl"
         />
@@ -65,7 +66,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
           variant="h3"
           className="text-sm md:text-base truncate"
         >
-          {car.title}
+          {bike.title}
         </Typography>
 
         {/* Price */}
@@ -73,7 +74,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
           variant="p"
           className="text-sm md:text-base text-gray-800 truncate"
         >
-          PKR {car.price}
+          PKR {bike.price}
         </Typography>
 
         {/* Details like year, km, fuel */}
@@ -81,7 +82,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
           variant="p"
           className="text-xs md:text-sm text-gray-500 truncate"
         >
-          {car.year} | {car.km ?? "-"} km | {car.fuel ?? "Petrol"}
+          {bike.year} | {bike.km ?? "-"} km | {bike.fuel ?? "Petrol"}
         </Typography>
 
         {/* Posted info */}
@@ -89,7 +90,7 @@ export default function PowerCarCard({ car }: PowerCarCardProps) {
           variant="p"
           className="text-xs md:text-sm text-gray-400 truncate"
         >
-          {car.posted ?? "Few days ago"}
+          {bike.posted ?? "Few days ago"}
         </Typography>
       </div>
     </div>

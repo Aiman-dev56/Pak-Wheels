@@ -168,11 +168,11 @@ export default function ReviewPage() {
 
                     </div>
                     <div className="md:block lg:hidden m-10">
-                         <Typography variant="h3" className="m-4 mt-10 !text-2xl">{product?.title}</Typography>
-                          {totalReviews > 0 ? (
+                        <Typography variant="h3" className="m-4 mt-10 !text-2xl">{product?.title}</Typography>
+                        {totalReviews > 0 ? (
                             <div className="flex items-center gap-30 ml-5 mt-8">
                                 <span className="text-yellow-500 font-bold text-lg">
-                                    <StarRating rating={Number(averageRating)} /> 
+                                    <StarRating rating={Number(averageRating)} />
                                 </span>
                                 <span className="text-gray-500">
                                     ({totalReviews} Reviews)
@@ -183,7 +183,7 @@ export default function ReviewPage() {
                                 No Reviews Yet
                             </span>
                         )}
-                          <Image
+                        <Image
 
                             src={product.image}
                             alt={product.title}
@@ -195,7 +195,7 @@ export default function ReviewPage() {
                     </div>
 
 
-                    
+
 
                     {/* Reviews List */}
                     <div className="space-y-4 mb-10">
@@ -214,25 +214,25 @@ export default function ReviewPage() {
                                 <div className="flex flex-col justify-between mb-2">
                                     <h3 className="font-semibold mb-2">{review.user}</h3>
                                     <StarRating rating={Number(averageRating)}
-                                 /> 
+                                    />
                                     <span className="text-sm text-gray-400 mt-4 flex gap-2">
-                                       <IoMdTime size={20}/> {review.createdAt}
+                                        <IoMdTime size={20} /> {review.createdAt}
                                     </span>
                                     <p className="text-gray-700 mt-4">{review.message}</p>
                                 </div>
-                                
+
                             </div>
                         ))}
                     </div>
 
                     {/* Review Input */}
                     <div className=" m-4">
-                        
 
-<ReviewForm onSubmit={handleReview}/>
 
-                       
-                            
+                        <ReviewForm onSubmit={handleReview} />
+
+
+
                     </div>
                 </div>
 
@@ -242,7 +242,7 @@ export default function ReviewPage() {
                     onClose={() => setOpenAuth(false)}
                 />
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }

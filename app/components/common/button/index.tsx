@@ -27,7 +27,7 @@ export const Button = ({
   variant = "default",
 }: ButtonProps) => {
   const base =
-    "inline-flex items-center justify-center px-10  py-2  text-sm sm:text-base border border-gray-300 focus:outline-none hover:opacity-80 transition-colors";
+    "inline-flex items-center justify-center px-8  py-2  text-sm sm:text-base border border-gray-300 focus:outline-none hover:opacity-80 transition-colors";
 
   const variants = {
     default: "rounded-md ",

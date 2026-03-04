@@ -8,6 +8,7 @@ import { Model } from "./components/common/Model";
 import { AuthProvider } from "./context/AuthContext";
 import "./globals.css";
 import { useState } from "react";
+import { Toaster} from "react-hot-toast";
 
 
 const geistSans = Geist({
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: {
             </Model>
             <div className="overflow-x-hidden">
               {children}
+              <Toaster position="bottom-right" />
             </div>
 
             
